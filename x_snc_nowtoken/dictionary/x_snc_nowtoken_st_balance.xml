@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Balance" max_length="40" name="x_snc_nowtoken_st_balance" sizeclass="0" type="collection">
+        <element label="Address" max_length="100" name="address" type="string"/>
+        <element label="Amount" max_length="1000" name="amount" type="string"/>
+        <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

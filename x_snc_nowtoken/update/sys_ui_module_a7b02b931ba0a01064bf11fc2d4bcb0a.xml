@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Balance">2bb02b931ba0a01064bf11fc2d4bcb08</application>
+        <filter/>
+        <name>Balances</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_snc_nowtoken.balance_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-23 18:34:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a7b02b931ba0a01064bf11fc2d4bcb0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Balances</sys_name>
+        <sys_package display_value="NOWToken" source="x_snc_nowtoken">b98ed3531ba0a01064bf11fc2d4bcb2d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NOWToken">b98ed3531ba0a01064bf11fc2d4bcb2d</sys_scope>
+        <sys_update_name>sys_ui_module_a7b02b931ba0a01064bf11fc2d4bcb0a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-23 18:34:20</sys_updated_on>
+        <table>x_snc_nowtoken_st_balance</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>
