@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_vtable">
+    <sys_script_vtable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <cache_isolation_level>USER</cache_isolation_level>
+        <cache_strategy>CACHE_BY_QUERY</cache_strategy>
+        <cache_ttl>0</cache_ttl>
+        <name>NowToken Script</name>
+        <script><![CDATA[(function executeQuery(v_table, v_query) {
+
+	//get current user account
+	current_acct = new GlideRecord('x_snc_ethsign_account');
+	current_acct.addQuery('user', gs.getUserID());
+	current_acct.query();
+	while (current_acct.next()) {
+		var default_account = current_acct.sys_id;
+	}
+	
+	//get balanceOf method
+	method = new GlideRecord('x_snc_ethereum_method');
+    method.get('687dc71bdba0a010969430d86896192e'); //Kovan
+	
+	//iterate on account table
+    acct = new GlideRecord("x_snc_ethsign_account");
+	acct.query();
+	while (acct.next()) {
+        var map = {};		
+		map['user'] = acct.user.sys_id;
+		map['address'] = acct.key.address;
+
+	try {
+		var inputs = {};
+		inputs['method'] = method; 
+		inputs['params'] = '["' + acct.key.address + '"]' ; 
+//		inputs['block_parameter'] = 'latest';
+		inputs['account'] = acct;
+		sn_fd.FlowAPI.startSubflow('x_snc_ethereum.call_method', inputs);
+		var outputs = sn_fd.FlowAPI.executeSubflow('x_snc_ethereum.call_method', inputs);
+		var balance = JSON.parse(outputs['output'])["0"];	
+	} catch (ex) {
+		var message = ex.getMessage();
+		gs.error(message);
+	}
+		
+		map['amount'] = balance;
+		
+		v_table.addRow(map);
+	} 
+	
+  })(v_table, v_query);]]></script>
+        <sys_class_name>sys_script_vtable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-23 18:54:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>62b2efd31ba0a01064bf11fc2d4bcb99</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>NowToken Script</sys_name>
+        <sys_package display_value="NOWToken" source="x_snc_nowtoken">b98ed3531ba0a01064bf11fc2d4bcb2d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NOWToken">b98ed3531ba0a01064bf11fc2d4bcb2d</sys_scope>
+        <sys_update_name>sys_script_vtable_62b2efd31ba0a01064bf11fc2d4bcb99</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-25 08:25:43</sys_updated_on>
+        <table>x_snc_nowtoken_st_balance</table>
+    </sys_script_vtable>
+</record_update>
