@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="DELETE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>test_user</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot>7fe28c401b34e01064bf11fc2d4bcbed</latest_snapshot>
+        <master_snapshot>df1f7fbf1be0e01064bf11fc2d4bcb8e</master_snapshot>
+        <name>Test User</name>
+        <natlang/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-25 10:03:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>200ffbbf1be0e01064bf11fc2d4bcbbd</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Test User</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NOWToken" source="x_snc_nowtoken">b98ed3531ba0a01064bf11fc2d4bcb2d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NOWToken">b98ed3531ba0a01064bf11fc2d4bcb2d</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_200ffbbf1be0e01064bf11fc2d4bcbbd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-25 10:20:41</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="DELETE" query="documentkey=200ffbbf1be0e01064bf11fc2d4bcbbd"/>
+    <sys_variable_value action="DELETE" query="document_key=200ffbbf1be0e01064bf11fc2d4bcbbd"/>
+    <sys_hub_step_instance action="DELETE" query="action=200ffbbf1be0e01064bf11fc2d4bcbbd^sys_idNOT INde1f7fbf1be0e01064bf11fc2d4bcb43"/>
+    <sys_hub_step_instance action="DELETE">
+        <action display_value="Test User">200ffbbf1be0e01064bf11fc2d4bcbbd</action>
+        <cid>f783b737-70b0-4b79-b99c-d64cced51f4d</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-25 10:03:56</sys_created_on>
+        <sys_id>de1f7fbf1be0e01064bf11fc2d4bcb43</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="NOWToken">b98ed3531ba0a01064bf11fc2d4bcb2d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-25 10:12:17</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="DELETE" query="document_key=de1f7fbf1be0e01064bf11fc2d4bcb43"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>de1f7fbf1be0e01064bf11fc2d4bcb43</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-25 10:03:56</sys_created_on>
+        <sys_id>661f7fbf1be0e01064bf11fc2d4bcb4c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-25 10:12:17</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+
+  gs.info("USER =" + gs.getUserID());
+  
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>de1f7fbf1be0e01064bf11fc2d4bcb43</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-25 10:03:56</sys_created_on>
+        <sys_id>ae1f7fbf1be0e01064bf11fc2d4bcb4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-25 10:03:56</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_hub_step_instance action="DELETE" query="action=200ffbbf1be0e01064bf11fc2d4bcbbd^sys_idNOT INde1f7fbf1be0e01064bf11fc2d4bcb43"/>
+    <sys_hub_step_instance action="DELETE">
+        <action display_value="Test User">200ffbbf1be0e01064bf11fc2d4bcbbd</action>
+        <cid>f783b737-70b0-4b79-b99c-d64cced51f4d</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-25 10:03:56</sys_created_on>
+        <sys_id>de1f7fbf1be0e01064bf11fc2d4bcb43</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="NOWToken">b98ed3531ba0a01064bf11fc2d4bcb2d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-25 10:12:17</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="DELETE" query="document_key=de1f7fbf1be0e01064bf11fc2d4bcb43"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>de1f7fbf1be0e01064bf11fc2d4bcb43</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-25 10:03:56</sys_created_on>
+        <sys_id>661f7fbf1be0e01064bf11fc2d4bcb4c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-25 10:12:17</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+
+  gs.info("USER =" + gs.getUserID());
+  
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>de1f7fbf1be0e01064bf11fc2d4bcb43</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-25 10:03:56</sys_created_on>
+        <sys_id>ae1f7fbf1be0e01064bf11fc2d4bcb4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-25 10:03:56</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_hub_action_plan action="DELETE" query="action_id=200ffbbf1be0e01064bf11fc2d4bcbbd^sys_idNOT IN7f1f7fbf1be0e01064bf11fc2d4bcbb8"/>
+    <sys_hub_action_plan action="DELETE">
+        <action_id display_value="Test User">200ffbbf1be0e01064bf11fc2d4bcbbd</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"7f1f7fbf1be0e01064bf11fc2d4bcbb8","name":"plan"}}</plan>
+        <snapshot>bd0108001b34e01064bf11fc2d4bcb22</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-25 10:04:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7f1f7fbf1be0e01064bf11fc2d4bcbb8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-25 10:12:22</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="DELETE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>test_user</internal_name>
+        <label_cache>[]</label_cache>
+        <master>true</master>
+        <name>Test User</name>
+        <natlang/>
+        <outputs/>
+        <parent_action display_value="Test User">200ffbbf1be0e01064bf11fc2d4bcbbd</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-25 10:03:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>df1f7fbf1be0e01064bf11fc2d4bcb8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NOWToken">b98ed3531ba0a01064bf11fc2d4bcb2d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-25 10:03:59</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="DELETE" query="documentkey=df1f7fbf1be0e01064bf11fc2d4bcb8e"/>
+    <sys_variable_value action="DELETE" query="document_key=df1f7fbf1be0e01064bf11fc2d4bcb8e"/>
+    <sys_hub_step_instance action="DELETE" query="action=df1f7fbf1be0e01064bf11fc2d4bcb8e^sys_idNOT INd71f7fbf1be0e01064bf11fc2d4bcb90"/>
+    <sys_hub_step_instance action="DELETE">
+        <action display_value="Test User">df1f7fbf1be0e01064bf11fc2d4bcb8e</action>
+        <cid>f783b737-70b0-4b79-b99c-d64cced51f4d</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-25 10:03:59</sys_created_on>
+        <sys_id>d71f7fbf1be0e01064bf11fc2d4bcb90</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="NOWToken">b98ed3531ba0a01064bf11fc2d4bcb2d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-25 10:12:21</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="DELETE" query="document_key=d71f7fbf1be0e01064bf11fc2d4bcb90"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d71f7fbf1be0e01064bf11fc2d4bcb90</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-25 10:04:00</sys_created_on>
+        <sys_id>931f7fbf1be0e01064bf11fc2d4bcb96</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-25 10:12:21</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+
+  gs.info("USER =" + gs.getUserID());
+  
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d71f7fbf1be0e01064bf11fc2d4bcb90</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-25 10:04:00</sys_created_on>
+        <sys_id>df1f7fbf1be0e01064bf11fc2d4bcb95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-25 10:04:00</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_hub_step_instance action="DELETE" query="action=df1f7fbf1be0e01064bf11fc2d4bcb8e^sys_idNOT INd71f7fbf1be0e01064bf11fc2d4bcb90"/>
+    <sys_hub_step_instance action="DELETE">
+        <action display_value="Test User">df1f7fbf1be0e01064bf11fc2d4bcb8e</action>
+        <cid>f783b737-70b0-4b79-b99c-d64cced51f4d</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-25 10:03:59</sys_created_on>
+        <sys_id>d71f7fbf1be0e01064bf11fc2d4bcb90</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="NOWToken">b98ed3531ba0a01064bf11fc2d4bcb2d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-25 10:12:21</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="DELETE" query="document_key=d71f7fbf1be0e01064bf11fc2d4bcb90"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d71f7fbf1be0e01064bf11fc2d4bcb90</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-25 10:04:00</sys_created_on>
+        <sys_id>931f7fbf1be0e01064bf11fc2d4bcb96</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-25 10:12:21</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+
+  gs.info("USER =" + gs.getUserID());
+  
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d71f7fbf1be0e01064bf11fc2d4bcb90</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-25 10:04:00</sys_created_on>
+        <sys_id>df1f7fbf1be0e01064bf11fc2d4bcb95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-25 10:04:00</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NOWToken">b98ed3531ba0a01064bf11fc2d4bcb2d</application>
+        <file_path/>
+        <instance_id>1030efb5db3c9050566750b6f496193d</instance_id>
+        <instance_name>ethereum2</instance_name>
+        <name>sys_hub_action_type_definition_200ffbbf1be0e01064bf11fc2d4bcbbd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition"><sys_hub_action_type_definition action="INSERT_OR_UPDATE"><access>public</access><acls/><action_template/><active>true</active><annotation/><callable_by_client_api>false</callable_by_client_api><category/><copied_from/><copied_from_name/><description/><ih_action>false</ih_action><internal_name>test_user</internal_name><label_cache>[]</label_cache><latest_snapshot>7fe28c401b34e01064bf11fc2d4bcbed</latest_snapshot><master_snapshot>df1f7fbf1be0e01064bf11fc2d4bcb8e</master_snapshot><name>Test User</name><natlang/><outputs/><state>published</state><sys_class_name>sys_hub_action_type_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-11-25 10:03:32</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>200ffbbf1be0e01064bf11fc2d4bcbbd</sys_id><sys_mod_count>14</sys_mod_count><sys_name>Test User</sys_name><sys_overrides/><sys_package display_value="NOWToken" source="x_snc_nowtoken">b98ed3531ba0a01064bf11fc2d4bcb2d</sys_package><sys_policy/><sys_scope display_value="NOWToken">b98ed3531ba0a01064bf11fc2d4bcb2d</sys_scope><sys_update_name>sys_hub_action_type_definition_200ffbbf1be0e01064bf11fc2d4bcbbd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-11-25 10:20:41</sys_updated_on><system_level>false</system_level><type/></sys_hub_action_type_definition><sys_translated_text action="delete_multiple" query="documentkey=200ffbbf1be0e01064bf11fc2d4bcbbd"/><sys_variable_value action="delete_multiple" query="document_key=200ffbbf1be0e01064bf11fc2d4bcbbd"/><sys_hub_step_instance action="delete_multiple" query="action=200ffbbf1be0e01064bf11fc2d4bcbbd^sys_idNOT INde1f7fbf1be0e01064bf11fc2d4bcb43"/><sys_hub_step_instance action="INSERT_OR_UPDATE"><action display_value="Test User">200ffbbf1be0e01064bf11fc2d4bcbbd</action><cid>f783b737-70b0-4b79-b99c-d64cced51f4d</cid><extended_inputs/><extended_outputs/><icon/><inputs/><label>Script step</label><order>1</order><outputs/><section/><step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type><sys_created_by>admin</sys_created_by><sys_created_on>2020-11-25 10:03:56</sys_created_on><sys_id>de1f7fbf1be0e01064bf11fc2d4bcb43</sys_id><sys_mod_count>2</sys_mod_count><sys_scope display_value="NOWToken">b98ed3531ba0a01064bf11fc2d4bcb2d</sys_scope><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-11-25 10:12:17</sys_updated_on></sys_hub_step_instance><sys_variable_value action="delete_multiple" query="document_key=de1f7fbf1be0e01064bf11fc2d4bcb43"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_step_instance</document><document_key>de1f7fbf1be0e01064bf11fc2d4bcb43</document_key><order>600</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-11-25 10:03:56</sys_created_on><sys_id>661f7fbf1be0e01064bf11fc2d4bcb4c</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-11-25 10:12:17</sys_updated_on><value>(function execute(inputs, outputs) {
+
+  gs.info("USER =" + gs.getUserID());
+  
+})(inputs, outputs);
+</value><variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_step_instance</document><document_key>de1f7fbf1be0e01064bf11fc2d4bcb43</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-11-25 10:03:56</sys_created_on><sys_id>ae1f7fbf1be0e01064bf11fc2d4bcb4b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-11-25 10:03:56</sys_updated_on><value>35aa573fd7802200bdbaee5b5e610375</value><variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable></sys_variable_value><sys_hub_step_instance action="delete_multiple" query="action=200ffbbf1be0e01064bf11fc2d4bcbbd^sys_idNOT INde1f7fbf1be0e01064bf11fc2d4bcb43"/><sys_hub_step_instance action="INSERT_OR_UPDATE"><action display_value="Test User">200ffbbf1be0e01064bf11fc2d4bcbbd</action><cid>f783b737-70b0-4b79-b99c-d64cced51f4d</cid><extended_inputs/><extended_outputs/><icon/><inputs/><label>Script step</label><order>1</order><outputs/><section/><step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type><sys_created_by>admin</sys_created_by><sys_created_on>2020-11-25 10:03:56</sys_created_on><sys_id>de1f7fbf1be0e01064bf11fc2d4bcb43</sys_id><sys_mod_count>2</sys_mod_count><sys_scope display_value="NOWToken">b98ed3531ba0a01064bf11fc2d4bcb2d</sys_scope><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-11-25 10:12:17</sys_updated_on></sys_hub_step_instance><sys_variable_value action="delete_multiple" query="document_key=de1f7fbf1be0e01064bf11fc2d4bcb43"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_step_instance</document><document_key>de1f7fbf1be0e01064bf11fc2d4bcb43</document_key><order>600</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-11-25 10:03:56</sys_created_on><sys_id>661f7fbf1be0e01064bf11fc2d4bcb4c</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-11-25 10:12:17</sys_updated_on><value>(function execute(inputs, outputs) {
+
+  gs.info("USER =" + gs.getUserID());
+  
+})(inputs, outputs);
+</value><variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_step_instance</document><document_key>de1f7fbf1be0e01064bf11fc2d4bcb43</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-11-25 10:03:56</sys_created_on><sys_id>ae1f7fbf1be0e01064bf11fc2d4bcb4b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-11-25 10:03:56</sys_updated_on><value>35aa573fd7802200bdbaee5b5e610375</value><variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable></sys_variable_value><sys_hub_action_plan action="delete_multiple" query="action_id=200ffbbf1be0e01064bf11fc2d4bcbbd^sys_idNOT IN7f1f7fbf1be0e01064bf11fc2d4bcbb8"/><sys_hub_action_plan action="INSERT_OR_UPDATE"><action_id display_value="Test User">200ffbbf1be0e01064bf11fc2d4bcbbd</action_id><plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"7f1f7fbf1be0e01064bf11fc2d4bcbb8","name":"plan"}}</plan><snapshot>bd0108001b34e01064bf11fc2d4bcb22</snapshot><sys_created_by>admin</sys_created_by><sys_created_on>2020-11-25 10:04:01</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7f1f7fbf1be0e01064bf11fc2d4bcbb8</sys_id><sys_mod_count>1</sys_mod_count><sys_overrides/><sys_scope/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-11-25 10:12:22</sys_updated_on></sys_hub_action_plan><sys_hub_action_type_snapshot action="INSERT_OR_UPDATE"><access>public</access><acls/><action_template/><annotation/><callable_by_client_api>false</callable_by_client_api><category/><copied_from/><copied_from_name/><description/><internal_name>test_user</internal_name><label_cache>[]</label_cache><master>true</master><name>Test User</name><natlang/><outputs/><parent_action display_value="Test User">200ffbbf1be0e01064bf11fc2d4bcbbd</parent_action><sys_class_name>sys_hub_action_type_snapshot</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-11-25 10:03:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>df1f7fbf1be0e01064bf11fc2d4bcb8e</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package/><sys_policy/><sys_scope display_value="NOWToken">b98ed3531ba0a01064bf11fc2d4bcb2d</sys_scope><sys_update_name/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-11-25 10:03:59</sys_updated_on><system_level>false</system_level><type/></sys_hub_action_type_snapshot><sys_translated_text action="delete_multiple" query="documentkey=df1f7fbf1be0e01064bf11fc2d4bcb8e"/><sys_variable_value action="delete_multiple" query="document_key=df1f7fbf1be0e01064bf11fc2d4bcb8e"/><sys_hub_step_instance action="delete_multiple" query="action=df1f7fbf1be0e01064bf11fc2d4bcb8e^sys_idNOT INd71f7fbf1be0e01064bf11fc2d4bcb90"/><sys_hub_step_instance action="INSERT_OR_UPDATE"><action display_value="Test User">df1f7fbf1be0e01064bf11fc2d4bcb8e</action><cid>f783b737-70b0-4b79-b99c-d64cced51f4d</cid><extended_inputs/><extended_outputs/><icon/><inputs/><label>Script step</label><order>1</order><outputs/><section/><step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type><sys_created_by>admin</sys_created_by><sys_created_on>2020-11-25 10:03:59</sys_created_on><sys_id>d71f7fbf1be0e01064bf11fc2d4bcb90</sys_id><sys_mod_count>2</sys_mod_count><sys_scope display_value="NOWToken">b98ed3531ba0a01064bf11fc2d4bcb2d</sys_scope><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-11-25 10:12:21</sys_updated_on></sys_hub_step_instance><sys_variable_value action="delete_multiple" query="document_key=d71f7fbf1be0e01064bf11fc2d4bcb90"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_step_instance</document><document_key>d71f7fbf1be0e01064bf11fc2d4bcb90</document_key><order>600</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-11-25 10:04:00</sys_created_on><sys_id>931f7fbf1be0e01064bf11fc2d4bcb96</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-11-25 10:12:21</sys_updated_on><value>(function execute(inputs, outputs) {
+
+  gs.info("USER =" + gs.getUserID());
+  
+})(inputs, outputs);
+</value><variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_step_instance</document><document_key>d71f7fbf1be0e01064bf11fc2d4bcb90</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-11-25 10:04:00</sys_created_on><sys_id>df1f7fbf1be0e01064bf11fc2d4bcb95</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-11-25 10:04:00</sys_updated_on><value>35aa573fd7802200bdbaee5b5e610375</value><variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable></sys_variable_value><sys_hub_step_instance action="delete_multiple" query="action=df1f7fbf1be0e01064bf11fc2d4bcb8e^sys_idNOT INd71f7fbf1be0e01064bf11fc2d4bcb90"/><sys_hub_step_instance action="INSERT_OR_UPDATE"><action display_value="Test User">df1f7fbf1be0e01064bf11fc2d4bcb8e</action><cid>f783b737-70b0-4b79-b99c-d64cced51f4d</cid><extended_inputs/><extended_outputs/><icon/><inputs/><label>Script step</label><order>1</order><outputs/><section/><step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type><sys_created_by>admin</sys_created_by><sys_created_on>2020-11-25 10:03:59</sys_created_on><sys_id>d71f7fbf1be0e01064bf11fc2d4bcb90</sys_id><sys_mod_count>2</sys_mod_count><sys_scope display_value="NOWToken">b98ed3531ba0a01064bf11fc2d4bcb2d</sys_scope><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-11-25 10:12:21</sys_updated_on></sys_hub_step_instance><sys_variable_value action="delete_multiple" query="document_key=d71f7fbf1be0e01064bf11fc2d4bcb90"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_step_instance</document><document_key>d71f7fbf1be0e01064bf11fc2d4bcb90</document_key><order>600</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-11-25 10:04:00</sys_created_on><sys_id>931f7fbf1be0e01064bf11fc2d4bcb96</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-11-25 10:12:21</sys_updated_on><value>(function execute(inputs, outputs) {
+
+  gs.info("USER =" + gs.getUserID());
+  
+})(inputs, outputs);
+</value><variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_step_instance</document><document_key>d71f7fbf1be0e01064bf11fc2d4bcb90</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-11-25 10:04:00</sys_created_on><sys_id>df1f7fbf1be0e01064bf11fc2d4bcb95</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-11-25 10:04:00</sys_updated_on><value>35aa573fd7802200bdbaee5b5e610375</value><variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>906116977</payload_hash>
+        <record_name>Test User</record_name>
+        <reverted_from/>
+        <source>758ed3531ba0a01064bf11fc2d4bcb2f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-25 10:20:41</sys_created_on>
+        <sys_id>c0f2cc401b34e01064bf11fc2d4bcb1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>175feeb67fa0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-25 10:20:41</sys_updated_on>
+        <type>Action Type</type>
+        <update_guid>0cf2cc40d234e0100cb7ddae14ccc11c</update_guid>
+        <update_guid_history>0cf2cc40d234e0100cb7ddae14ccc11c:906116977,7be28c40d234e0106ef041ff7fb006e9:437634535,8a0108001634e01046cf647ec3dcc651:1981742542,0d01c4001e34e010eb0a27b60f384bdf:-1776854157,6b1f7fbfb7e0e0103f08393fb4431db3:980789884,a61f7fbfeae0e010b0ac15d2b884635d:-333452434,340f3fbf6fe0e010b1efe8263086f54a:1767484653</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-26 18:10:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_action_type_definition">sys_hub_action_type_definition</sys_db_object>
+        <sys_id>029c81358bd84b15991694182dd4cb01</sys_id>
+        <sys_metadata>200ffbbf1be0e01064bf11fc2d4bcbbd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test User</sys_name>
+        <sys_package display_value="NOWToken" source="x_snc_nowtoken">b98ed3531ba0a01064bf11fc2d4bcb2d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NOWToken">b98ed3531ba0a01064bf11fc2d4bcb2d</sys_scope>
+        <sys_scope_delete display_value="">2e002571916242c28f94636eadee25a4</sys_scope_delete>
+        <sys_update_name>sys_hub_action_type_definition_200ffbbf1be0e01064bf11fc2d4bcbbd</sys_update_name>
+        <sys_update_version display_value="sys_hub_action_type_definition_200ffbbf1be0e01064bf11fc2d4bcbbd">c0f2cc401b34e01064bf11fc2d4bcb1d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-26 18:10:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
